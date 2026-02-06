@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PASSKEYS - By Harsh</title>
+
+  <style>
+    body {
+      background-color: rgb(181, 201, 201);
+      font-family: Arial, sans-serif;
+    }
+    h2{color: rgb(247, 164, 158);}
+
+    button {
+      color: blue;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <h2 style="text-align: center;">Login to retrieve your data</h2>
+
+  <form action="#" method="post">
+    <label>
+      Email:
+      <input type="email" name="email" placeholder="E-mail" required>
+    </label>
+    <br><br>
+
+    <label>
+      Password:
+      <input type="password" name="password" placeholder="Password" required>
+    </label>
+    <br><br>
+
+    <button type="submit">Login</button>
+  </form>
+
+  <p>don't have an account yet??</p>
+  <button type="button" id="signup">Create One</button>
+<script>
+  document.getElementById("signup").addEventListener("click", function () {
+    window.open("https://www.hariombokaro.com", "_blank");
+  });
+</script>
+
+</body>
+</html>
